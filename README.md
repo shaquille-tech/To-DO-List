@@ -3,5 +3,5 @@
 Contents 
 -------------
 
-.Brief
+. Brief
 
