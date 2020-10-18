@@ -3,8 +3,8 @@
 ## Contents 
 -------------
 - Brief
-  . Requirements
-  . Solution
+  - Requirements
+  - Solution
 . Planning
 . Jira Board
 . Entity Relationship Diagram
