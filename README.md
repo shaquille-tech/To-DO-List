@@ -30,6 +30,12 @@ Along with the previous brief, the minimum requirements to achieve MVP (Minimum 
 - Code fully integrated into a Version Control System
 
 #### Solution
+My solution to this objective was to create a to do List which allows users to: 
+
+- CREATE a task so users can see what tasks have to be done
+- READ all tasks to be completed
+- UPDATE any tasks if changes are needed to be made
+- DELETE tasks if the user choses to
 
 ## Planning
 
