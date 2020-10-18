@@ -1,7 +1,7 @@
 # To-DO-List
 
 ## Contents 
--------------
+
 - Brief
   - Requirements
   - Solution
