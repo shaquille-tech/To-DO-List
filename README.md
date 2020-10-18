@@ -2,7 +2,7 @@
 
 ## Contents 
 -------------
-. Brief
+- Brief
   . Requirements
   . Solution
 . Planning
