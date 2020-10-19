@@ -32,7 +32,7 @@ Code fully integrated into a Version Control System.
 ### Solution
 My solution to this requirements was to create a To do List which allows users to :
 
-- CREATE tasks for them to do in there own time.
+- CREATE tasks for them to do in their own time.
 - READ tasks to be completed
 - UPDATE tasks 
 - DELETE tasks
