@@ -38,7 +38,7 @@ My solution to this requirements was to create a To do List which allows users t
 - DELETE tasks
 
 ## Jira Board
-- For 
+![Imgur](https://i.imgur.com/aKBVSKQ.jpg)
 
 ## Entity Relationship Diagram
 
