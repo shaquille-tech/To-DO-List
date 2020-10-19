@@ -5,7 +5,6 @@
 - Brief
   - Requirements
   - Solution
-- Planning
 - Jira Board
 - Entity Relationship Diagram
 - Risk Assessment
@@ -38,9 +37,8 @@ My solution to this requirements was to create a To do List which allows users t
 - UPDATE tasks 
 - DELETE tasks
 
-## Planning
-
 ## Jira Board
+- For 
 
 ## Entity Relationship Diagram
 
