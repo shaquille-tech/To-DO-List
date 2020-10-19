@@ -43,7 +43,6 @@ My solution to this requirements was to create a To do List which allows users t
 ## Entity Relationship Diagram
 
 ## Risk Assessment
-
-
+![Imgur](https://i.imgur.com/BbrQjhF.png)
 
 ## Testing
