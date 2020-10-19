@@ -38,7 +38,9 @@ My solution to this requirements was to create a To do List which allows users t
 - DELETE tasks
 
 ## Jira Board
+My plan involved me using the scrum method to carry out 
 ![Imgur](https://i.imgur.com/aKBVSKQ.jpg)
+![Imgur](https://i.imgur.com/pydvrO7.jpg)
 
 ## Entity Relationship Diagram
 
