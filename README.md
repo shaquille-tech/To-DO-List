@@ -13,3 +13,19 @@
   - Unit Tests
   - Integration Tests
 - Front End Navigation
+
+## Brief
+
+### Requirements
+
+### Solution
+
+## Planning
+
+## Jira Board
+
+## Entity Relationship Diagram
+
+## Risk Assessment
+
+## Testing
