@@ -40,6 +40,8 @@ My solution to this requirements was to create a To do List which allows users t
 ## Jira Board
 My plan involved me using the scrum method to carry out the project, this would allow me to keep track of what I needed to do and what tasks have been completed. 
 This method additionally aided me in trying to meet the MVP.
+
+
 ![Imgur](https://i.imgur.com/aKBVSKQ.jpg)
 ![Imgur](https://i.imgur.com/pydvrO7.jpg)
 
