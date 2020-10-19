@@ -38,11 +38,14 @@ My solution to this requirements was to create a To do List which allows users t
 - DELETE tasks
 
 ## Jira Board
-My plan involved me using the scrum method to carry out 
+My plan involved me using the scrum method to carry out the project, this would allow me to keep track of what I needed to do and what tasks have been completed. 
+This method additionally aided me in trying to meet the MVP.
 ![Imgur](https://i.imgur.com/aKBVSKQ.jpg)
 ![Imgur](https://i.imgur.com/pydvrO7.jpg)
 
 ## Entity Relationship Diagram
+Due to time constaraints, I went down a more simplistic route and made one table in the database which has all the necessary data for the to do list
+![Imgur](https://i.imgur.com/O7O0yPB.jpg)
 
 ## Risk Assessment
 ![Imgur](https://i.imgur.com/BbrQjhF.png)
