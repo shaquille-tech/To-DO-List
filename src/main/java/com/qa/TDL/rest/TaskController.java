@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.websocket.server.PathParam;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,25 +33,29 @@ public class TaskController {
 	
 	//Get request
 	@GetMapping("/get")
-	public List<Task> getTask() {
-		return this.service.getTask();
+	public ResponseEntity<List<Task>> getTask() {
+		return ResponseEntity.ok(this.service.getTask());
 		
 	}
 	
 	@PostMapping("/create")
-	public void createTask(@RequestBody Task task) {
-		this.service.createTask(task);
+	public ResponseEntity<Task> createTask(@RequestBody Task task) {
+		return new ResponseEntity<Task>(this.service.createTask(task), HttpStatus.CREATED);
 	}
 	
 	@PutMapping("/update")
-	public void updateTask(@RequestBody Task task, @PathParam("id") int id) {
-		this.service.updateTask(task, id);
-		//this.TaskDB.add(id, task);
+	public ResponseEntity<Task> updateTask(@RequestBody Task task, @PathParam("id") int id) {
+		return new ResponseEntity<Task>(this.service.updateTask(task, id), HttpStatus.ACCEPTED);
+		
 	}
 	
 	@DeleteMapping("/remove/{id}")
-	public void deleteTask(@PathVariable int id) {
-		this.service.deleteTask(id);
+	public ResponseEntity<Object> deleteTask(@PathVariable long id) {
+		if (this.service.deleteTask(id)) {
+			return new ResponseEntity<>(HttpStatus.OK);
+		}else {
+			return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
 	}
 
 }

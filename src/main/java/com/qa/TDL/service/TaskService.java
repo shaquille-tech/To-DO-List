@@ -30,23 +30,24 @@ public class TaskService {
 	}
 	
 	
-	public void createTask(Task task) {
-		this.repo.save(task);
+	public Task createTask(Task task) {
+		return this.repo.save(task);
 	}
 	
 	
-	public void updateTask(Task task, long id) {
+	public Task updateTask(Task task, long id) {
 		Task oldTask = this.repo.findById(id).get();
 		oldTask.setTask(task.getTask());
 		oldTask.setLocation(task.getLocation());
 		oldTask.setDate(task.getDate());
 		
-		this.repo.save(oldTask);
+		return this.repo.save(oldTask);
 	}
 	
 	
-	public void deleteTask(long id) {
+	public boolean deleteTask(long id) {
 		this.repo.deleteById(id);
+		return !this.repo.existsById(id);
 	}
 
 
