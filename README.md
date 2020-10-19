@@ -44,7 +44,8 @@ This method additionally aided me in trying to meet the MVP.
 ![Imgur](https://i.imgur.com/pydvrO7.jpg)
 
 ## Entity Relationship Diagram
-Due to time constaraints, I went down a more simplistic route and made one table in the database which has all the necessary data for the to do list
+Due to time constaraints, I went down a more simplistic route and made one table in the database,
+which has all the necessary data for the to do list.
 ![Imgur](https://i.imgur.com/O7O0yPB.jpg)
 
 ## Risk Assessment
